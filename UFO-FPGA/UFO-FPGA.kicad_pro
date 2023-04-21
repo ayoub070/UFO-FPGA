@@ -472,6 +472,10 @@
   },
   "sheets": [
     [
+      "b3168f6a-c732-41d3-aeeb-d97dd2f1bb65",
+      ""
+    ],
+    [
       "abe08156-b909-4d2d-ad35-f723f4a728d5",
       "POWER"
     ],
@@ -482,10 +486,6 @@
     [
       "a9a0295d-b075-4952-a5ba-04debc5f691c",
       "BANK 4 - SPI Programming"
-    ],
-    [
-      "b3168f6a-c732-41d3-aeeb-d97dd2f1bb65",
-      ""
     ],
     [
       "03eb349d-f783-448d-a9ad-735fd21dbf61",
@@ -502,6 +502,10 @@
     [
       "baabafd2-c41f-4db4-a640-329e074df703",
       "BANK 3 IO"
+    ],
+    [
+      "8a110dcf-7b5f-4510-96dd-3ef5ec8aca05",
+      "PINOUT"
     ]
   ],
   "text_variables": {}

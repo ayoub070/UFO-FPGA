@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "93LC56CT-I/MS" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0)
+    (property "Reference" "U" (at 0 1.905 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "" (at 0 0 0)
@@ -12,13 +12,11 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "93LC56CT-I/MS_0_1"
+    (symbol "93LC56CT-I/MS_1_1"
       (rectangle (start -5.08 -1.27) (end 5.08 -11.43)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
-    )
-    (symbol "93LC56CT-I/MS_1_1"
       (pin output line (at -7.62 -10.16 0) (length 2.54)
         (name "DO" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
@@ -152,10 +150,10 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "AP7179D-13_0_1"
+    (symbol "AP7179D-13_1_1"
       (rectangle (start -13.97 1.905) (end 12.7 -30.48)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
   )

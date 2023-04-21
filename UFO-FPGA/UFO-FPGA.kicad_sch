@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-04-22")
+    (rev "V0.1")
+  )
+
   (lib_symbols
   )
 
@@ -64,6 +69,23 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 161.29 21.59) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a110dcf-7b5f-4510-96dd-3ef5ec8aca05)
+    (property "Sheetname" "PINOUT" (at 161.29 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PINOUT.kicad_sch" (at 161.29 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "9"))
       )
     )
   )
@@ -154,6 +176,6 @@
   )
 
   (sheet_instances
-    (path "/" (page "5"))
+    (path "/" (page "1"))
   )
 )
