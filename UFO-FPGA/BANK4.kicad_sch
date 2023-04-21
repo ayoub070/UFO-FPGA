@@ -1487,10 +1487,18 @@
     (uuid f3500de7-a33a-489e-91fa-3ba8a7b01a67)
   )
 
-  (rectangle (start 39.37 148.59) (end 99.06 177.8)
+  (rectangle (start 34.29 148.59) (end 106.68 177.8)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid dd5c5d14-f94b-46fa-8cfe-bf197e65924d)
+  )
+
+  (text_box "DOWN	For programming Flash - Shunt 1,3 and 2,4 (default)\nMOSI to MOSI & MISO to MISO\n\nUP		For programming iCE - Shunt 3,4 and 1,2\nMOSI to MISO & MISO to MOSI"
+    (at 34.29 177.8 0) (size 72.39 13.97)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 0247e23f-efec-4ec2-b6c5-714e8c9f975c)
   )
 
   (label "ICE_MISO" (at 88.9 166.37 0) (fields_autoplaced)
