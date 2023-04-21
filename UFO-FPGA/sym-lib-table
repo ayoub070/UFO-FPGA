@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "UFO_PARTS")(type "KiCad")(uri "${KIPRJMOD}/UFO_PARTS.kicad_sym")(options "")(descr ""))
-)
