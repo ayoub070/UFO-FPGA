@@ -85,6 +85,23 @@
     )
     (instances
       (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 27.305 127) (size 40.64 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98332e8f-475b-462b-a153-03883f4d2670)
+    (property "Sheetname" "ADC" (at 27.305 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC.kicad_sch" (at 27.305 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "9"))
       )
     )
