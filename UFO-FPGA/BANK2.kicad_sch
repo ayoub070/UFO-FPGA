@@ -931,6 +931,9 @@
   (junction (at 170.18 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 9b37e2d6-5d69-497e-99b0-3d4f97f08109)
   )
+  (junction (at 193.04 45.72) (diameter 0) (color 0 0 0 0)
+    (uuid d37c9fac-2571-4fb8-abc6-277e65428ca8)
+  )
   (junction (at 198.12 38.1) (diameter 0) (color 0 0 0 0)
     (uuid ebccc6b8-0b0e-4a4b-bc30-bd8047f70ba8)
   )
@@ -1022,6 +1025,11 @@
   (wire (pts (xy 181.61 45.72) (xy 170.18 45.72))
     (stroke (width 0) (type default))
     (uuid fb953ee8-2eff-4d57-894a-50e6251fd564)
+  )
+
+  (label "VCCIO_2" (at 146.05 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7d00cc58-0458-406a-8e1a-fe3b5e831c5d)
   )
 
   (global_label "ICE_CREST" (shape input) (at 114.3 58.42 180) (fields_autoplaced)
@@ -1142,6 +1150,31 @@
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/6f7e0d88-d92b-4c4f-9dc8-64721cd46d41"
           (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 193.04 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2608bf2b-8fb5-43aa-9b73-736b2201c133)
+    (property "Reference" "#PWR039" (at 193.04 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 193.04 49.8555 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 193.04 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 193.04 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83cc2108-327d-44ee-a3cd-704b57461bb5))
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/6f7e0d88-d92b-4c4f-9dc8-64721cd46d41"
+          (reference "#PWR039") (unit 1)
         )
       )
     )
