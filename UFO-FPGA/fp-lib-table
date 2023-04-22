@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UFO-Footpints")(type "KiCad")(uri "${KIPRJMOD}/UFO-Footpints.pretty")(options "")(descr ""))
+)
