@@ -1158,7 +1158,7 @@
   (symbol (lib_id "power:GND") (at 193.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2608bf2b-8fb5-43aa-9b73-736b2201c133)
-    (property "Reference" "#PWR039" (at 193.04 52.07 0)
+    (property "Reference" "#PWR0103" (at 193.04 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 49.8555 0)
@@ -1174,7 +1174,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/6f7e0d88-d92b-4c4f-9dc8-64721cd46d41"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
