@@ -5,8 +5,9 @@
   (paper "A4")
 
   (title_block
-    (date "2023-04-22")
-    (rev "V0.1")
+    (date "2023-04-25")
+    (rev "V0.5")
+    (company "Universal-Field-Objects")
   )
 
   (lib_symbols
