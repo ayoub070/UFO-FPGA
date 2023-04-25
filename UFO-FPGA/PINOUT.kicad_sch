@@ -882,7 +882,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 129.54 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b876535-65a1-4a88-86c2-ea0e1d124e5d)
-    (property "Reference" "J2" (at 129.54 62.23 0)
+    (property "Reference" "J1" (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Power" (at 132.08 72.39 90)
@@ -905,7 +905,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/8a110dcf-7b5f-4510-96dd-3ef5ec8aca05"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "PINOUT"
@@ -924,7 +924,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 147.32 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afc87259-a363-4f7b-ad36-6f4727bd83a0)
-    (property "Reference" "J5" (at 147.32 90.17 0)
+    (property "Reference" "J4" (at 147.32 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital" (at 144.78 100.33 90)
@@ -947,7 +947,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/8a110dcf-7b5f-4510-96dd-3ef5ec8aca05"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "PINOUT"
@@ -1001,7 +1001,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 147.32 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d270f201-6f96-4a07-823c-ab8ee8dbb4d9)
-    (property "Reference" "J4" (at 147.32 57.15 0)
+    (property "Reference" "J3" (at 147.32 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital/PWM" (at 144.78 69.85 90)
@@ -1026,7 +1026,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/8a110dcf-7b5f-4510-96dd-3ef5ec8aca05"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "PINOUT"
@@ -1045,7 +1045,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 129.54 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbb67e8d-f2ce-42b8-a1eb-2950c612176d)
-    (property "Reference" "J3" (at 129.54 90.17 0)
+    (property "Reference" "J2" (at 129.54 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital" (at 132.08 97.79 90)
@@ -1066,7 +1066,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/8a110dcf-7b5f-4510-96dd-3ef5ec8aca05"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "PINOUT"
