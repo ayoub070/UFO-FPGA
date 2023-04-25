@@ -512,6 +512,10 @@
     [
       "8a110dcf-7b5f-4510-96dd-3ef5ec8aca05",
       "PINOUT"
+    ],
+    [
+      "4b884ea1-5945-4826-a315-db89106495d4",
+      "Invert-5V-Dual-Ramp"
     ]
   ],
   "text_variables": {}
