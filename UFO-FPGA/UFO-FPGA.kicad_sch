@@ -63,7 +63,7 @@
     (property "Sheetname" "Invert-5V-Dual-Ramp" (at 71.755 127.5584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Invert-5V-Dual-Ramp.kicad_sch" (at 71.755 163.1446 0)
+    (property "Sheetfile" "untitled.kicad_sch" (at 71.755 163.1446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

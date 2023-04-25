@@ -845,6 +845,20 @@
     (uuid ff26aeaa-7e98-49af-b2aa-05323dedaa5f)
   )
 
+  (rectangle (start 78.105 52.705) (end 222.885 146.685)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid aa84acc7-fcad-4244-909d-8684da3030cd)
+  )
+
+  (text_box "De IC hier zorgt voor de -5V dat gebruikt wordt om de opamps te voeden. Hierdoor kunnen we de opamps dual supply maken."
+    (at 78.105 133.35 0) (size 144.78 13.335)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid b9bf2196-505a-4a7d-b1ee-c94962461f00)
+  )
+
   (label "-15 unfiltered" (at 168.91 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69e0dd6c-718f-4520-8e52-2f4018018bb0)
