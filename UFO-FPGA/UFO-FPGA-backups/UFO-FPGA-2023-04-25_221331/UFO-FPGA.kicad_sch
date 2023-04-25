@@ -1,0 +1,215 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b3168f6a-c732-41d3-aeeb-d97dd2f1bb65)
+
+  (paper "A4")
+
+  (title_block
+    (date "2023-04-22")
+    (rev "V0.1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 70.485 18.415) (end 158.75 66.675)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 6b7f4726-3491-403f-809b-64c4d7902980)
+  )
+  (rectangle (start 26.035 68.58) (end 199.39 110.49)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 98c231e9-1cd6-4684-8892-bed6a2e9f74e)
+  )
+
+  (text_box "FPGA IO BANKS"
+    (at 26.035 110.49 0) (size 173.355 10.16)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 99780622-2409-4ea8-b15c-29de69cff85f)
+  )
+  (text_box "Used interfacing and programing the FPGA"
+    (at 70.485 59.69 0) (size 88.265 6.985)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid bad65f40-3c71-4371-b214-b9ceea51dd23)
+  )
+
+  (sheet (at 27.305 71.755) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 03eb349d-f783-448d-a9ad-735fd21dbf61)
+    (property "Sheetname" " BANK 0 IO" (at 27.305 71.0434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BANK0.kicad_sch" (at 27.305 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 71.755 128.27) (size 39.37 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4b884ea1-5945-4826-a315-db89106495d4)
+    (property "Sheetname" "Invert-5V-Dual-Ramp" (at 71.755 127.5584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 71.755 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 113.665 71.755) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6f7e0d88-d92b-4c4f-9dc8-64721cd46d41)
+    (property "Sheetname" "BANK 2 IO" (at 113.665 71.0434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BANK2.kicad_sch" (at 113.665 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 161.29 21.59) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a110dcf-7b5f-4510-96dd-3ef5ec8aca05)
+    (property "Sheetname" "PINOUT" (at 161.29 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PINOUT.kicad_sch" (at 161.29 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 27.305 127) (size 40.64 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98332e8f-475b-462b-a153-03883f4d2670)
+    (property "Sheetname" "ADC" (at 27.305 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC.kicad_sch" (at 27.305 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 115.57 21.59) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9a0295d-b075-4952-a5ba-04debc5f691c)
+    (property "Sheetname" "BANK 4 - SPI Programming" (at 115.57 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BANK4.kicad_sch" (at 115.57 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 27.305 21.59) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid abe08156-b909-4d2d-ad35-f723f4a728d5)
+    (property "Sheetname" "POWER" (at 27.305 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER.kicad_sch" (at 27.305 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 156.845 71.755) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid baabafd2-c41f-4db4-a640-329e074df703)
+    (property "Sheetname" "BANK 3 IO" (at 156.845 71.0434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BANK3.kicad_sch" (at 156.845 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 21.59) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eec89a79-dace-443c-aa86-713b48a49f95)
+    (property "Sheetname" "USB Programmer" (at 72.39 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Programmer.kicad_sch" (at 72.39 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 70.485 71.755) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f54d4357-d916-4d6b-afb9-9dd5f65d1cf7)
+    (property "Sheetname" "BANK 1 IO" (at 70.485 71.0434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BANK1.kicad_sch" (at 70.485 109.1696 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
