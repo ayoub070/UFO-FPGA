@@ -1520,7 +1520,7 @@
     (stroke (width 0) (type default))
     (uuid ad14c68f-0926-420d-bb83-d4139d708f49)
   )
-  (wire (pts (xy 41.91 26.035) (xy 41.91 42.545))
+  (wire (pts (xy 41.91 26.035) (xy 41.91 31.75))
     (stroke (width 0) (type default))
     (uuid b1adfde2-ebbc-43a5-a3b1-ca160757a8b2)
   )
@@ -1663,6 +1663,10 @@
   (wire (pts (xy 161.925 106.68) (xy 171.45 106.68))
     (stroke (width 0) (type default))
     (uuid f58505a1-3173-468b-8b3d-efadf8ef5796)
+  )
+  (wire (pts (xy 41.91 39.37) (xy 41.91 42.545))
+    (stroke (width 0) (type default))
+    (uuid f6ffd931-df1c-42d0-94fc-b23b8f8a0b4d)
   )
   (wire (pts (xy 187.96 86.36) (xy 187.96 89.535))
     (stroke (width 0) (type default))
@@ -4605,6 +4609,37 @@
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/abe08156-b909-4d2d-ad35-f723f4a728d5"
           (reference "D7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 41.91 35.56 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ab305c06-be86-483f-ba42-9f2a3128ed41)
+    (property "Reference" "R48" (at 40.132 34.9163 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "1M" (at 40.132 36.8373 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 40.132 35.56 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.91 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a47c559-f3a0-4683-82a9-d4ef09c22ed2))
+    (pin "2" (uuid d89249b0-de23-44c4-9e96-559a2dfb43e2))
+    (instances
+      (project "POWER"
+        (path "/1a19c6f3-4fbd-4092-903c-8e5414c10419"
+          (reference "R48") (unit 1)
+        )
+      )
+      (project "UFO-FPGA"
+        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/abe08156-b909-4d2d-ad35-f723f4a728d5"
+          (reference "R55") (unit 1)
         )
       )
     )
