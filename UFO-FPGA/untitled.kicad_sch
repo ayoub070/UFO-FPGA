@@ -945,7 +945,7 @@
     (property "Reference" "R45" (at 131.445 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "70m" (at 131.445 66.04 90)
+    (property "Value" "3" (at 131.445 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 131.445 70.358 90)
