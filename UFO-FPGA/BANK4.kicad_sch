@@ -2413,7 +2413,7 @@
     (property "Value" "SW_Push_DPDT" (at 72.39 154.7401 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 72.39 158.75 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight" (at 72.39 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 158.75 0)

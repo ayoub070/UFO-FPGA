@@ -2233,16 +2233,16 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 261.62 33.655 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:C") (at 261.62 33.655 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f1f9ba8-14c6-4840-8da4-78732d60d6d7)
-    (property "Reference" "C10" (at 258.699 33.0113 0)
+    (property "Reference" "C10" (at 264.541 33.0113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4u7F" (at 258.699 34.9323 0)
+    (property "Value" "4u7F" (at 264.541 34.9323 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 260.6548 37.465 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 262.5852 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 33.655 0)
@@ -2544,7 +2544,7 @@
   (symbol (lib_id "Device:LED") (at 306.07 162.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 730d8bab-57d6-4c33-999a-c2d31c788022)
-    (property "Reference" "D4" (at 304.4825 166.8399 0)
+    (property "Reference" "TXLED1" (at 304.4825 166.8399 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TXLED" (at 304.4825 164.9189 0)
@@ -2561,7 +2561,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/eec89a79-dace-443c-aa86-713b48a49f95"
-          (reference "D4") (unit 1)
+          (reference "TXLED1") (unit 1)
         )
       )
     )
@@ -3091,7 +3091,7 @@
   (symbol (lib_id "Device:LED") (at 306.07 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbf5d93a-e048-4781-ae38-148ebabd36ca)
-    (property "Reference" "D3" (at 304.4825 150.6601 0)
+    (property "Reference" "RXLED1" (at 304.4825 150.6601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RXLED" (at 304.4825 152.5811 0)
@@ -3108,7 +3108,7 @@
     (instances
       (project "UFO-FPGA"
         (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65/eec89a79-dace-443c-aa86-713b48a49f95"
-          (reference "D3") (unit 1)
+          (reference "RXLED1") (unit 1)
         )
       )
     )
