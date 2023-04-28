@@ -661,7 +661,7 @@
         "pattern": "/USB Programmer/ICE-CREST"
       },
       {
-        "netclass": "Signal",
+        "netclass": "FPGA-GPIO",
         "pattern": "ICE_SCK"
       },
       {
@@ -673,15 +673,15 @@
         "pattern": "Flash-MISO"
       },
       {
-        "netclass": "Signal",
+        "netclass": "FPGA-GPIO",
         "pattern": "ICE_SS_B"
       },
       {
-        "netclass": "Signal",
+        "netclass": "FPGA-GPIO",
         "pattern": "ICE_CDONE"
       },
       {
-        "netclass": "Signal",
+        "netclass": "FPGA-GPIO",
         "pattern": "ICE_CREST"
       },
       {
