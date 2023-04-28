@@ -122,10 +122,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.125,
-        "min_via_annular_width": 0.19999999999999998,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,12 +172,25 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.425,
+          "drill": 0.16
+        },
+        {
+          "diameter": 0.465,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -390,7 +403,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -417,7 +430,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.126,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -428,6 +441,142 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.126,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+1V2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+2V5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.2,
+        "name": "FPGA-GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.6,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Vin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -442,6 +591,310 @@
       {
         "netclass": "Default",
         "pattern": ""
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DM"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DP"
+      },
+      {
+        "netclass": "Vin",
+        "pattern": "Vin"
+      },
+      {
+        "netclass": "+1V2",
+        "pattern": "/POWER/+1v2en"
+      },
+      {
+        "netclass": "+1V2",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "+1V2",
+        "pattern": "/POWER/+1v2FB"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/POWER/PG3V3"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/POWER/+3V3FB"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "+1V2",
+        "pattern": "/POWER/PG1V2"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/POWER/3v3-EN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/ICE-SCK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/FLASH_MOSI"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/FLASH_MISO"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/ICE-SS-B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/ICE-CDONE"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/ICE-CREST"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "ICE_SCK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Flash-MOSI"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Flash-MISO"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "ICE_SS_B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "ICE_CDONE"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "ICE_CREST"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/RS232-Rx-TTL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/RS232-Tx-TTL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "RTSn"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "CTSn"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DTRn"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DSRn"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "DCDn"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "RS232_Tx_TTL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "RS232_Rx_TTL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "ICE_CLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/FTD-OSCI"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/EE-D"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/EE-CLK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/EE-CS"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/USB Programmer/EE-DO"
+      },
+      {
+        "netclass": "FPGA-GPIO",
+        "pattern": "/BANK 4 - SPI Programming/ICE_MOSI"
+      },
+      {
+        "netclass": "FPGA-GPIO",
+        "pattern": "/BANK 4 - SPI Programming/ICE_MISO"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/ BANK 0 IO/VCCIO_0"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/BANK 1 IO/VCCIO_1"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/BANK 2 IO/VCCIO_2"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/BANK 3 IO/VCCIO_3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-22"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-23"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-18"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-19"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-20"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-21"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AIN1_O"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-5"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-7"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-8"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-9"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-10"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-11"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-12"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-13"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-14"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-15"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-16"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-17"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-18"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-19"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-20"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-21"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-22"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "PIN-23"
+      },
+      {
+        "netclass": "+2V5",
+        "pattern": "+2V5"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
