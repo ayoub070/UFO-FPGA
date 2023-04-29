@@ -57,23 +57,6 @@
     )
   )
 
-  (sheet (at 71.755 128.27) (size 39.37 34.29) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4b884ea1-5945-4826-a315-db89106495d4)
-    (property "Sheetname" "Invert-5V-Dual-Ramp" (at 71.755 127.5584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "untitled.kicad_sch" (at 71.755 163.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "UFO-FPGA"
-        (path "/b3168f6a-c732-41d3-aeeb-d97dd2f1bb65" (page "11"))
-      )
-    )
-  )
-
   (sheet (at 113.665 71.755) (size 40.64 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
