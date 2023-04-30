@@ -1531,7 +1531,7 @@
     (uuid 0247e23f-efec-4ec2-b6c5-714e8c9f975c)
   )
 
-  (label "ICE_MISO" (at 87.63 163.195 0) (fields_autoplaced)
+  (label "ICE_MISO" (at 53.34 165.735 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c57fbde-403b-44fd-8f92-fb66504b47d1)
   )
@@ -1543,7 +1543,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b196a37-53b6-4160-a027-0a37b92c6f63)
   )
-  (label "ICE_MOSI" (at 53.34 165.735 0) (fields_autoplaced)
+  (label "ICE_MOSI" (at 87.63 163.195 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8ca66c0c-3fc9-4fb3-8d37-89fa33a83bfe)
   )
