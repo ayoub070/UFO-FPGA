@@ -1211,7 +1211,6 @@
     )
   )
 
-
   (junction (at 130.81 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 10e7e848-7dc5-4fa8-b4c0-8630386236e2)
   )
@@ -1933,7 +1932,7 @@
     (property "Value" "N25Q032A13ESC40F" (at 164.5159 101.9081 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (at 146.05 121.285 0)
+    (property "Footprint" "Package_SO:SSOP-8_5.25x5.24mm_P1.27mm" (at 146.05 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 146.05 121.285 0)
