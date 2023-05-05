@@ -760,6 +760,7 @@
     )
   )
 
+
   (junction (at 152.4 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 1f6355a4-f3b5-4e08-a7ae-f1546fff09ee)
   )
@@ -769,6 +770,22 @@
   (junction (at 163.83 52.07) (diameter 0) (color 0 0 0 0)
     (uuid cc4f1901-d483-473e-b5e7-833136473305)
   )
+
+  (no_connect (at 113.665 102.87) (uuid 0dc9151e-2b71-45d5-a8ca-ab46a282f29f))
+  (no_connect (at 113.665 113.03) (uuid 245f19a6-632e-4fb0-8ac4-a6b0e71ea0d9))
+  (no_connect (at 113.665 95.25) (uuid 429cd148-9bf3-4d8e-a5a7-2ffed7b8c9f9))
+  (no_connect (at 113.665 87.63) (uuid 43497785-b20c-41fe-9f64-40075b383ffa))
+  (no_connect (at 113.665 97.79) (uuid 486b15b4-daf7-4b74-873c-0e5d2beb238f))
+  (no_connect (at 113.665 105.41) (uuid 5393d6cc-269d-4b1c-8a59-b3f64f42f58b))
+  (no_connect (at 113.665 110.49) (uuid 5e8a2025-8a4b-4336-aa78-eb48d6181740))
+  (no_connect (at 113.665 115.57) (uuid 6414137b-9a6b-4f7d-bc71-1378f88394df))
+  (no_connect (at 113.665 100.33) (uuid 683a18b5-a539-4c88-ad00-a8de777a9699))
+  (no_connect (at 113.665 118.11) (uuid 707305b3-41a4-497d-8779-9515553b4e25))
+  (no_connect (at 113.665 92.71) (uuid 8f502069-be95-4ee2-943e-ddefabd306b3))
+  (no_connect (at 113.665 90.17) (uuid 95273eeb-20ba-46cb-9c17-ea17c342d859))
+  (no_connect (at 113.665 125.73) (uuid 9dd3ee09-32a3-47d3-aae1-ca73683a4858))
+  (no_connect (at 113.665 123.19) (uuid bf5731aa-e4d0-4ce9-9e15-77e9cb80dac3))
+  (no_connect (at 113.665 120.65) (uuid ed2d25fa-a53c-4a1b-9d75-398395c0c874))
 
   (wire (pts (xy 103.505 82.55) (xy 113.665 82.55))
     (stroke (width 0) (type default))
@@ -809,11 +826,6 @@
   (wire (pts (xy 163.83 52.07) (xy 192.405 52.07))
     (stroke (width 0) (type default))
     (uuid d82ac5c4-525e-4d03-86e5-4bfa7f2e8a63)
-  )
-
-  (label "VCCIO_2" (at 126.365 52.07 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4ad38bb6-b294-452d-8226-f97071b7e83e)
   )
 
   (global_label "RS232_Tx_TTL" (shape input) (at 103.505 82.55 180) (fields_autoplaced)

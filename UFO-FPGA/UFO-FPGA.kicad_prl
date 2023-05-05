@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcff9f_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcffbf_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "UFO-FPGA.kicad_prl",
