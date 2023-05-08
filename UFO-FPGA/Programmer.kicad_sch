@@ -764,6 +764,7 @@
     )
   )
 
+
   (junction (at 264.16 64.135) (diameter 0) (color 0 0 0 0)
     (uuid 09c5c065-a387-41ac-86d0-460f21e8a163)
   )
@@ -2984,7 +2985,7 @@
     (property "Value" "ASDMB-12MHz" (at 158.115 193.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm" (at 164.465 185.42 0)
+    (property "Footprint" "UFO-Footpints:ASDDV-12.000MHz-LC-T3" (at 164.465 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://abracon.com/Oscillators/ASDMB.pdf" (at 172.085 173.99 0)
