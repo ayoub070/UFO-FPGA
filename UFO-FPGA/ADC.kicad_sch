@@ -177,37 +177,13 @@
     (uuid fe480a95-1fa7-40a9-9c13-4fd79bbf7ae6)
   )
 
-  (rectangle (start 78.74 18.415) (end 104.14 34.29)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 2b613c60-789b-42b5-9cb2-9200419f7d28)
-  )
   (rectangle (start 19.05 18.415) (end 104.14 94.615)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 32067c4d-f12e-42fa-8754-74d82be9752a)
   )
-  (rectangle (start 104.14 18.415) (end 277.495 94.615)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d19e05dc-dc94-4562-bfa5-6c20182e83e9)
-  )
 
-  (text_box "Dit is opamp input voor de ADC. Enige probleem is dat wij niet weten waar de VDC aangeconnect moet worden hierom een label.\n"
-    (at 104.14 85.09 0) (size 173.355 9.525)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 27319eb4-e525-43de-8d4b-fb862edc2cdd)
-  )
-  (text_box "Decoupling CAPS"
-    (at 78.74 34.29 0) (size 25.4 3.175)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 52732c92-23b4-453e-b47e-a29a26ae9750)
-  )
-  (text_box "Dit is de ADC. De ADC kan twee singalen meten via AIN1 en AIN2. De singalen moeten geleverd worden door een een opamp DIe de gebruiker zelf moet leveren. Dit geeft de gebruiker ook weer meer flexibiliteit en overegens een kleiner PCB."
+  (text_box "Dit is de ADC. De ADC kan twee singalen meten via AIN1. De singalen moeten geleverd worden door een een opamp Die de gebruiker zelf moet leveren. Dit geeft de gebruiker ook weer meer flexibiliteit en overegens een kleiner PCB."
     (at 19.05 85.09 0) (size 85.09 9.525)
     (stroke (width 0) (type default))
     (fill (type none))
