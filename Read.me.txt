@@ -9,7 +9,7 @@ Key Features:
 - The FPGA used in this project is the ICE40h4X lattice, known for its versatility and performance.
 
 Programming Options:
-- Users have the flexibility to choose between different programming environments. They can utilize the closed-source ICecubestudio 2 or leverage open source resources like apio.
+- Users have the flexibility to choose between different programming environments. They can utilize the closed-source ICecube 2 or leverage open source resources like apio.
 
 We welcome contributions from anyone interested in joining our mission to inspire students and hobbyists in the world of FPGAs. Feel free to explore the project, experiment with the board, and contribute to its ongoing development.
 
